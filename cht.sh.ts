@@ -121,7 +121,7 @@ if (!topic) process.exit(1);
 
 const query = sub ? `${topic}/${sub}` : topic;
 
-let url = `https://cht-sh/${query}`;
+let url = `https://cht.sh/${query}`;
 
 const queriesWithValues = new URLSearchParams();
 const queriesWithoutValues: Array<string> = [];
@@ -155,7 +155,6 @@ try {
   const response = await fetch(url);
   const body = await response.text();
   console.log(body);
-  console.log(url);
 } catch {
   console.log('Could not talk to cheat.sh');
   process.exit(1);
