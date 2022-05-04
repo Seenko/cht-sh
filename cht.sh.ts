@@ -81,18 +81,18 @@ flags.forEach(flag => {
     case 'help':
       console.log(`
       Usage:
-        $ cht.sh <language> <subtopic?>
+        $ cht-sh <language> <subtopic?>
 
-        $ cht.sh <language> hello     hello world + how to start the program
-        $ cht.sh <language> :learn    big cheat sheet for learning language from scratch
-        $ cht.sh <language> :list     list of subtopics
-        $ cht.sh <language> :random   fetches a random cheat sheet belonging to the topic
+        $ cht-sh <language> hello     hello world + how to start the program
+        $ cht-sh <language> :learn    big cheat sheet for learning language from scratch
+        $ cht-sh <language> :list     list of subtopics
+        $ cht-sh <language> :random   fetches a random cheat sheet belonging to the topic
 
-        $ cht.sh :list                list all cheat sheets
-        $ cht.sh :post                how to post new cheat sheet
-        $ cht.sh :styles              list of color styles
-        $ cht.sh :styles-demo         show color styles usage examples
-        $ cht.sh :random              fetches a random cheat sheet
+        $ cht-sh :list                list all cheat sheets
+        $ cht-sh :post                how to post new cheat sheet
+        $ cht-sh :styles              list of color styles
+        $ cht-sh :styles-demo         show color styles usage examples
+        $ cht-sh :random              fetches a random cheat sheet
 
       Options:
         --help, -h                    Shows this help message
@@ -104,8 +104,8 @@ flags.forEach(flag => {
         --code-only, -Q               Code only, don't show text (QUERY+ only)
 
       Examples:
-        $ cht.sh javascript generate random number
-        $ cht.sh golang generics
+        $ cht-sh javascript generate random number
+        $ cht-sh golang generics
       `);
       break;
     case 'color-style':
@@ -121,7 +121,7 @@ if (!topic) process.exit(1);
 
 const query = sub ? `${topic}/${sub}` : topic;
 
-let url = `https://cht.sh/${query}`;
+let url = `https://cht-sh/${query}`;
 
 const queriesWithValues = new URLSearchParams();
 const queriesWithoutValues: Array<string> = [];

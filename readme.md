@@ -6,20 +6,20 @@ A Node cheat.sh CLI
     $ npm install --global cht-sh
 
 # Usage
-    $ cht.sh --help
+    $ cht-sh --help
 
 	    Usage:
-		    $ cht.sh <language>  <subtopic?>
-		    $ cht.sh <language> hello			hello world + how to start the program
-		    $ cht.sh <language> :learn			big cheat sheet for learning language from scratch
-		    $ cht.sh <language> :list			list of subtopics
-		    $ cht.sh <language> :random			fetches a random cheat sheet belonging to the topic
+		    $ cht-sh <language>  <subtopic?>
+		    $ cht-sh <language> hello			hello world + how to start the program
+		    $ cht-sh <language> :learn			big cheat sheet for learning language from scratch
+		    $ cht-sh <language> :list			list of subtopics
+		    $ cht-sh <language> :random			fetches a random cheat sheet belonging to the topic
 
-		    $ cht.sh :list						list all cheat sheets
-		    $ cht.sh :post						how to post new cheat sheet
-		    $ cht.sh :styles					list of color styles
-		    $ cht.sh :styles-demo				show color styles usage examples
-		    $ cht.sh :random					fetches a random cheat sheet
+		    $ cht-sh :list						list all cheat sheets
+		    $ cht-sh :post						how to post new cheat sheet
+		    $ cht-sh :styles					list of color styles
+		    $ cht-sh :styles-demo				show color styles usage examples
+		    $ cht-sh :random					fetches a random cheat sheet
 
 	    Options:
 		    --help, -h							Shows this help message
@@ -31,5 +31,5 @@ A Node cheat.sh CLI
 		    --code-only,  -Q					Code  only, don't  show  text (QUERY+  only)
 
 	    Examples:
-		    $ cht.sh javascript generate random number
-		    $ cht.sh golang generics
+		    $ cht-sh javascript generate random number
+		    $ cht-sh golang generics

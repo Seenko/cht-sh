@@ -1,6 +1,6 @@
 {
   "name": "cht-sh",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "description": "A Node cheat.sh CLI",
   "repository": "Seenko/cht-sh",
@@ -8,10 +8,7 @@
   "files": [
     "dist/**/*"
   ],
-  "bin": {
-    "cht.sh": "./dist/cht.sh.js",
-    "cht-sh": "./dist/cht.sh.js"
-  },
+  "bin": "./dist/cht.sh.js",
   "scripts": {
     "dev": "npm run build -- -w",
     "lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
