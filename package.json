@@ -1,6 +1,6 @@
 {
   "name": "cht-sh",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "A Node cheat.sh CLI",
   "repository": "Seenko/cht-sh",
