@@ -108,7 +108,6 @@ flags.forEach(flag => {
         $ cht-sh golang generics
       `);
       break;
-    case 'color-style':
   }
 
   if (flag.stopExecution) process.exit(0);
