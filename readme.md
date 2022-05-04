@@ -6,7 +6,7 @@ A node based command line tool interface for cht.sh
     $ npm install --global cht-sh
 
 # Usage
-The tool can be ivoked using either `cht-sh` or `chtsh`
+The tool can be ivoked using either `cht-sh`, `chtsh` or `cht`.
 
 	$ cht-sh --help
 

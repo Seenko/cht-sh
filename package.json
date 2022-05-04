@@ -1,6 +1,6 @@
 {
   "name": "cht-sh",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "type": "module",
   "description": "A node based command line tool for cht.sh",
   "repository": "Seenko/cht-sh",
@@ -10,7 +10,8 @@
   ],
   "bin": {
     "cht-sh": "./dist/index.js",
-    "chtsh": "./dist/index.js"
+    "chtsh": "./dist/index.js",
+    "cht": "./dist/index.js"
   },
   "scripts": {
     "dev": "npm run build -- -w",
